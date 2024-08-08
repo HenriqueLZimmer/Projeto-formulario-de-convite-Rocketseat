@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+
+    --font-family-logo: "Leckerli One", sans-serif;
+    --text-logo: 2.5rem/1.5 var(--font-family-logo);
+
+    --font-family-head: 'Baloo 2', sans-serif;
+    --text-head-md: 1.75rem/1.25 var(--font-family-head);
+    --text-head-sm: 1.125rem/1.25 var(--font-family-head);
+
+    --font-family-body: 'Open Sans', sans-serif;
+    --text-body-md: 1rem/1.25 var(--font-family-body);
+    --text-body-sm: .875rem/1.25 var(--font-family-body);
+    --text-body-xs: 0.75rem/1.25 var(--font-family-body);
+
+    
+
+}
