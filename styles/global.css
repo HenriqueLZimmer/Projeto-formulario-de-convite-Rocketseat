@@ -18,6 +18,20 @@
     --text-body-sm: .875rem/1.25 var(--font-family-body);
     --text-body-xs: 0.75rem/1.25 var(--font-family-body);
 
-    
+    --shape-background: #131516;
+    --shape-body: #212427;
+    --shape-button: #2d3136;
+    --shape-hover: #383d42;
 
+    --text-body:#c8cdd0;
+    --text-head:#f9f9f9
+
+}
+
+.grid{
+    display: grid;
+}
+
+body{
+    background-color: var(--shape-background);
 }
