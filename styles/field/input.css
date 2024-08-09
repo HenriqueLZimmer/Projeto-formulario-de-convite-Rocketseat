@@ -1,0 +1,56 @@
+input, textarea{
+    appearance: none;
+    width: 100%;
+    border-radius: .5rem;
+    border: 2px solid var(--input-stroke);
+    /* outline: 1px solid var(--stroke-default); */
+    
+    padding: .75rem;
+
+    font: var(--text-body-md);
+    color:var(--input-placeholder);
+    background-color: var(--input-base);
+
+    
+}
+
+.input-wrapper {
+    margin-right: 1rem;
+    
+
+    & :last-child{
+        margin-right: 0;
+    }
+}
+
+
+
+label{
+    color: var(--text-body);
+    font: var(--text-body-sm);
+
+    display: block;
+    margin-bottom: 1rem
+}
+
+.segmented-control {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--input-base);
+    border-radius: 0.5rem;
+    overflow: hidden;
+    border: 2px solid var(--input-stroke);
+    height: 46px;
+
+    & label{
+        display: flex;
+        padding: 1rem;
+        text-align: center;
+        cursor: pointer;
+        /* transition: background-color 0.3s, color 0.3s; */
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+}
