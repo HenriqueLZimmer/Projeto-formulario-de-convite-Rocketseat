@@ -13,9 +13,9 @@
         margin-left: 2rem;
         cursor: pointer;
 
-/*         & input:nth-child(1){
-            background-color: black;
-        } */
-
+        
     }
 }
+
+
+#light { background-color: lightgray; }
