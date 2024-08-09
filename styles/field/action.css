@@ -1,0 +1,21 @@
+
+.flexaction-wrapper{
+
+    label{
+        margin-top: 1.5rem;
+    }
+
+    input{
+        width: 40px;
+        height: 40px;
+        border-radius: 9999px;
+        justify-items: center;
+        margin-left: 2rem;
+        cursor: pointer;
+
+/*         & input:nth-child(1){
+            background-color: black;
+        } */
+
+    }
+}

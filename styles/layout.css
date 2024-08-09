@@ -60,13 +60,13 @@ main{
     & h2{
         font:var(--text-head-md);
         color:var(--text-head);
-        margin-bottom: 2.5rem;
     }
 
     & .about{
         display: flex;
         align-items: center;
         gap:.5rem;
+        margin-top: 2.5rem;
 
         font: var(--text-head-sm);
         color:var(--text-head);
