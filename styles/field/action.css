@@ -22,7 +22,7 @@
     background-color: #59b2ff; 
     border: 6px solid var(--shape-button);
     inset: 0;
-    &:hover{
+    &:hover, &:checked{
         border: 3px solid var(--brand-light);
     }
 }
@@ -30,7 +30,7 @@
     background-color: #6a59ff; 
     border: 6px solid var(--shape-button);
     inset: 0;
-    &:hover{
+    &:hover, &:checked{
         border: 3px solid var(--brand-light);
     }
 }
@@ -38,7 +38,7 @@
     background-color: #b259ff; 
     border: 6px solid var(--shape-button);
     inset: 0;
-    &:hover{
+    &:hover, &:checked{
         border: 3px solid var(--brand-light);
     }
 }
@@ -46,7 +46,7 @@
     background-color: #ff59f9; 
     border: 6px solid var(--shape-button);
     inset: 0;
-    &:hover{
+    &:hover, &:checked{
         border: 3px solid var(--brand-light);
     }
 }
@@ -54,7 +54,7 @@
     background-color: #ff598b; 
     border: 6px solid var(--shape-button);
     inset: 0;
-    &:hover{
+    &:hover, &:checked{
         border: 3px solid var(--brand-light);
     }
 }
@@ -62,7 +62,7 @@
     background-color: #ff5959; 
     border: 6px solid var(--shape-button);
     inset: 0;
-    &:hover{
+    &:hover, &:checked{
         border: 3px solid var(--brand-light);
     }
 }
@@ -70,7 +70,7 @@
     background-color: #ff8b59; 
     border: 6px solid var(--shape-button);
     inset: 0;
-    &:hover{
+    &:hover, &:checked{
         border: 3px solid var(--brand-light);
     }
 }
@@ -78,7 +78,7 @@
     background-color: #ffcd59; 
     border: 6px solid var(--shape-button);
     inset: 0;
-    &:hover{
+    &:hover, &:checked{
         border: 3px solid var(--brand-light);
     }
 }
@@ -86,7 +86,7 @@
     background-color: #e1ff59; 
     border: 6px solid var(--shape-button);
     inset: 0;
-    &:hover{
+    &:hover, &:checked{
         border: 3px solid var(--brand-light);
     }
 }
@@ -94,7 +94,7 @@
     background-color: #59ff91; 
     border: 6px solid var(--shape-button);
     inset: 0;
-    &:hover{
+    &:hover, &:checked{
         border: 3px solid var(--brand-light);
     }
 }
@@ -102,7 +102,7 @@
     background-color: #59fff9; 
     border: 6px solid var(--shape-button);
     inset: 0;
-    &:hover{
+    &:hover, &:checked{
         border: 3px solid var(--brand-light);
     }
 }

@@ -23,8 +23,6 @@ input, textarea{
     }
 }
 
-
-
 label{
     color: var(--text-body);
     font: var(--text-body-sm);
@@ -53,4 +51,13 @@ label{
         gap: 0.5rem;
     }
 
+}
+
+.name{
+    & input{
+        margin-bottom: .5rem;
+    }
+    span{
+        color:#ff5959;
+    }
 }

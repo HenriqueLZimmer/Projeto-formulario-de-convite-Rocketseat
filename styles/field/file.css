@@ -1,0 +1,33 @@
+/* Ocultar o input file */
+input[type="file"] {
+    display: none;
+}
+
+/* Estilo para o label personalizado */
+.custom-file-upload {
+    padding: 10px 20px;
+    background-color: var(--shape-button);
+    color: var(--text-head);
+    cursor: pointer;
+    border-radius: 5px;
+    display: inline-flex;
+    align-items: center;
+}
+
+/* Estilo para a imagem no label */
+.custom-file-upload img {
+    margin-right: 1rem;
+}
+
+/* Estilo para o texto que mostra o status do arquivo */
+#file-name {
+    margin-left: 20px;
+    font:var(--text-body-md)
+}
+
+.button-file{
+    span{
+        text-align: center;
+        color: var(--input-placeholder);
+    }
+}

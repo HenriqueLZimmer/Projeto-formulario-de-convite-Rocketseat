@@ -220,21 +220,94 @@
 
                         <div id="style-type" class="flex">
                             <div class="flex-1 input-wrapper">
-                                <label for="style">Estilo</label>
-                                <input type="radio" name="background" id="style">
+                                <label for="type">Estilo</label>
+                                <div class="switch-container">
+                                    <label class="switch">
+                                        <input type="checkbox">
+                                        <span class="slider"></span>
+                                    </label>
+                                    <span id="mode-text">Escuro</span>
+                                </div>
+                            
+                                <script>
+                                    const checkbox = document.querySelector('.switch input[type="checkbox"]');
+                                    const modeText = document.getElementById('mode-text');
+                            
+                                    checkbox.addEventListener('change', function() {
+                                        if(this.checked) {
+                                            modeText.textContent = 'Claro';
+                                        } else {
+                                            modeText.textContent = 'Escuro';
+                                        }
+                                    });
+                                </script>
                             </div>
 
-                            <div class="flex-1 input-wrapper">
+                            <div class="flex-2 input-wrapper">
                                 <label for="cover-photo">Foto de capa</label>
-                                <div class="flex">
-                                    <img src="assets/icons/upload.svg" alt="upload">
-                                    <label for="selection">Selecionar</label>
-                                    <input type="file" id="style" name="background">
-                                    <label for="descripition">Nenhum arquivo selecionado</label>
+                                <div class="flex button-file">
+                                        <!-- Label personalizado com imagem -->
+                                    <label for="file-upload" class="custom-file-upload">
+                                        <img src="assets/icons/upload.svg" alt="Upload Icon" width="24" height="24">
+                                        Selecionar
+                                    </label>
+                                    
+                                    <!-- Input file associado ao label -->
+                                    <input type="file" id="file-upload" name="file-upload">
+
+                                    <!-- Mostrar o status do arquivo -->
+                                    <span id="file-name">Nenhum arquivo selecionado</span>
+
+                                    <script>
+                                        // Script para mostrar o nome do arquivo selecionado
+                                        const fileInput = document.getElementById('file-upload');
+                                        const fileNameDisplay = document.getElementById('file-name');
+
+                                        fileInput.addEventListener('change', function() {
+                                            const fileName = this.files.length > 0 ? this.files[0].name : 'Nenhum arquivo selecionado';
+                                            fileNameDisplay.textContent = fileName;
+                                        });
+                                    </script>
                                 </div>
 
                             </div>
                         </div>
+                    </fieldset>
+                </form>
+
+                <div class="invite">
+                </div>
+
+                <div class="about">
+                    <img src="assets/icons/contact.svg" alt="contact">
+                    <span>Dados para contato</span>
+                </div>
+
+                <form method="post" enctype="multipart/form-data">
+                    <fieldset>
+                        <div class="name">
+                            <label for="">Nome</label>
+                            <input type="text" name="name" id="name">
+                            <div class="alert">
+                                <img src="assets/icons/circle-alert-red.svg" alt="atencion">
+                                <span>Campo obrigatório</span>
+                            </div>
+                        </div>
+                        <div id="contact" class="flex">
+                            <div class="input-wrapper flex-1">
+                                <label for="email">E-mail</label>
+                                <input 
+                                type="email"
+                                id="email">
+                            </div>
+                            <div class="input-wrapper flex-1">
+                                <label for="email">Telefone</label>
+                                <input 
+                                type="tel"
+                                id="tel">
+                            </div>
+                    </div>
+
                     </fieldset>
                 </form>
 
