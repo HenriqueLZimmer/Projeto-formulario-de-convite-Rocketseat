@@ -1,0 +1,37 @@
+footer{
+    text-align: center;
+    font: var(--text-body-xs);
+    color: var(--text-body);
+
+    & .button-logo{
+        margin: 1rem;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+        display: flex;
+        gap: 10px;
+    
+        img{
+            margin-block: 1rem;
+            width: 20px;
+            height: 20px;
+        }
+        
+    }
+    & .background-footer{
+        border-top: 2px dashed var(--input-placeholder);
+        justify-content: center;
+
+    }
+}
+
+.design-footer {
+    display: flex;
+    justify-content: space-between; /* Coloca as divs nos extremos */
+    align-items: center; /* Alinha verticalmente ao centro */
+    padding: 0 1rem; /* Ajuste de padding, se necessário */
+}
+
+.design-footer .design {
+    text-align: right; /* Alinha o texto da segunda div à direita */
+}
