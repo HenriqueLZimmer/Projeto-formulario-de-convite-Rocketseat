@@ -42,10 +42,11 @@
                     <fieldset class="event-info">
                         <div id="description" class="input-wrapper">
                             <label for="name-event">Título</label>
-                            <input 
-                            type="text"
-                            id="name-event"
-                            placeholder="Nome do evento">
+                            <input type="text" id="name-event" placeholder="Nome do evento" required>
+                            <div class="alert">
+                                <img src="assets/icons/circle-alert-red.svg" alt="atencion">
+                                <span>Campo obrigatório</span>
+                            </div>
                         </div>
                         <div id="date-event" class="flex">
                             <div class="input-wrapper flex-1">
@@ -66,7 +67,7 @@
                             <div class="flex-1 input-wrapper">
                                 <label for="event-type">Tipo</label>
                                 <div class="segmented-control">
-                                    <input type="radio" name="mode" id="in-person">
+                                    <input type="radio" name="mode" id="in-person" checked>
                                     <label for="in-person">
                                         <img src="assets/icons/building.svg" alt="in-person">
                                         Presencial
@@ -100,7 +101,7 @@
                     <fieldset>
                         <div id="descripition" class="flexaction-wrapper">
                             <label for="main-color">Cor Principal</label>
-                            <div class="flex">
+                            <div class="flex main-color">
                                 <input type="radio" id="light" name="main-color">
                                 <input type="radio" id="navy" name="main-color">
                                 <input type="radio" id="purple" name="main-color">
@@ -287,7 +288,7 @@
                     <fieldset>
                         <div class="name">
                             <label for="">Nome</label>
-                            <input type="text" name="name" id="name">
+                            <input type="text" name="name" id="name" required> 
                             <div class="alert">
                                 <img src="assets/icons/circle-alert-red.svg" alt="atencion">
                                 <span>Campo obrigatório</span>
@@ -296,15 +297,19 @@
                         <div id="contact" class="flex">
                             <div class="input-wrapper flex-1">
                                 <label for="email">E-mail</label>
-                                <input 
-                                type="email"
-                                id="email">
+                                <input type="email" id="email" required>
+                                <div class="alert">
+                                    <img src="assets/icons/circle-alert-red.svg" alt="atencion">
+                                    <span>Campo obrigatório</span>
+                                </div>
                             </div>
                             <div class="input-wrapper flex-1">
                                 <label for="email">Telefone</label>
-                                <input 
-                                type="tel"
-                                id="tel">
+                                <input type="tel" id="tel" required>
+                                <div class="alert">
+                                    <img src="assets/icons/circle-alert-red.svg" alt="atencion">
+                                    <span>Campo obrigatório</span>
+                                </div>
                             </div>
                         </div>
                     </fieldset>

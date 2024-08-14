@@ -1,0 +1,50 @@
+.segmented-control {
+    display: flex;
+    gap:.25rem;
+    padding-top: .25rem;
+    padding-inline: .25rem;
+    border: 2px solid var(--input-stroke);
+    border-radius: .5rem;
+    max-height: 3rem;
+
+    & input[type="radio"]{
+        display: none;
+    }
+
+    label{
+        display: flex;
+        flex: 1;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--input-base);
+        padding: 1.2rem;
+        gap: .5rem;
+        border-radius: .5rem;
+        color: var(--text-head);
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    & input[type="radio"]:checked + label{
+        background-color: var(--input-stroke);
+        color: var(--brand-light);
+    }
+
+    & label img{
+        margin: .5rem;
+        width: 1rem;
+        height: 1rem;
+    }
+
+    & label:hover{
+        background-color: var(--input-stroke);
+    }
+
+    & #online:checked + label img{
+        content: url(/assets/icons/video-hover.svg);
+    }
+    & #in-person:checked + label img{
+        content: url(/assets/icons/building-hover.svg);
+    }
+
+}

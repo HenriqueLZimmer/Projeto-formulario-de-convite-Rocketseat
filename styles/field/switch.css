@@ -1,6 +1,5 @@
 div{
     .style-type{
-        justify-content: center;
         color: var(--input-stroke);
         align-items: center;
     }
@@ -8,16 +7,17 @@ div{
 
 /* Container do switch e texto */
 .switch-container {
+    margin-top: 1rem;
     display: flex;
-    align-items: center;
-    gap: 10px;
+    gap: .5rem;
+    border: 2px solid black;
 }
 
 /* Estilo do switch */
 .switch {
     position: relative;
     display: inline-block;
-    width: 50px;
+    width: 53px;
     height: 25px;
 }
 
@@ -32,9 +32,9 @@ div{
 .slider {
     position: absolute;
     cursor: pointer;
-    top: 0;
+    top: -4px;
     left: 0;
-    right: 0;
+    right: -4px;
     bottom: 0;
     background-color: var(--input-base);
     transition: 0.4s;

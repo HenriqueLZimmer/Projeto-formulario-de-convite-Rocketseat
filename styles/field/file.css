@@ -5,27 +5,34 @@ input[type="file"] {
 
 /* Estilo para o label personalizado */
 .custom-file-upload {
-    padding: 10px 20px;
+    height: 2.5rem;
+    width: 7.25rem;
+    margin-top: 1rem;
     background-color: var(--shape-button);
     color: var(--text-head);
     cursor: pointer;
     border-radius: 5px;
     display: inline-flex;
     align-items: center;
+    gap: .5rem;
 }
 
 /* Estilo para a imagem no label */
 .custom-file-upload img {
     margin-right: 1rem;
+    
 }
 
 /* Estilo para o texto que mostra o status do arquivo */
 #file-name {
-    margin-left: 20px;
+    margin-left: .5rem;
     font:var(--text-body-md)
 }
 
 .button-file{
+    height: 40px;
+    border: 2px solid black;
+    align-items: center;
     span{
         text-align: center;
         color: var(--input-placeholder);

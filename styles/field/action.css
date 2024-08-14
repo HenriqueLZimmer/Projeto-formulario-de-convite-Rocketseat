@@ -10,99 +10,100 @@
         height: 40px;
         border-radius: 9999px;
         justify-items: center;
-        margin-left: 2rem;
         cursor: pointer;
+    }
 
-        
+    .main-color{
+        justify-content: space-between;
+    
+        #light {
+            background-color: #59b2ff; 
+            border: 6px solid var(--shape-button);
+            inset: 0;
+            &:hover, &:checked{
+                border: 3px solid var(--brand-light);
+            }
+        }
+        #navy { 
+            background-color: #6a59ff; 
+            border: 6px solid var(--shape-button);
+            inset: 0;
+            &:hover, &:checked{
+                border: 3px solid var(--brand-light);
+            }
+        }
+        #purple { 
+            background-color: #b259ff; 
+            border: 6px solid var(--shape-button);
+            inset: 0;
+            &:hover, &:checked{
+                border: 3px solid var(--brand-light);
+            }
+        }
+        #fuschia { 
+            background-color: #ff59f9; 
+            border: 6px solid var(--shape-button);
+            inset: 0;
+            &:hover, &:checked{
+                border: 3px solid var(--brand-light);
+            }
+        }
+        #pink { 
+            background-color: #ff598b; 
+            border: 6px solid var(--shape-button);
+            inset: 0;
+            &:hover, &:checked{
+                border: 3px solid var(--brand-light);
+            }
+        }
+        #danger { 
+            background-color: #ff5959; 
+            border: 6px solid var(--shape-button);
+            inset: 0;
+            &:hover, &:checked{
+                border: 3px solid var(--brand-light);
+            }
+        }
+        #orange { 
+            background-color: #ff8b59; 
+            border: 6px solid var(--shape-button);
+            inset: 0;
+            &:hover, &:checked{
+                border: 3px solid var(--brand-light);
+            }
+        }
+        #yellow { 
+            background-color: #ffcd59; 
+            border: 6px solid var(--shape-button);
+            inset: 0;
+            &:hover, &:checked{
+                border: 3px solid var(--brand-light);
+            }
+        }
+        #lime { 
+            background-color: #e1ff59; 
+            border: 6px solid var(--shape-button);
+            inset: 0;
+            &:hover, &:checked{
+                border: 3px solid var(--brand-light);
+            }
+        }
+        #green { 
+            background-color: #59ff91; 
+            border: 6px solid var(--shape-button);
+            inset: 0;
+            &:hover, &:checked{
+                border: 3px solid var(--brand-light);
+            }
+        }
+        #cyan { 
+            background-color: #59fff9; 
+            border: 6px solid var(--shape-button);
+            inset: 0;
+            &:hover, &:checked{
+                border: 3px solid var(--brand-light);
+            }
+        }
     }
 }
 
-
-#light {
-    background-color: #59b2ff; 
-    border: 6px solid var(--shape-button);
-    inset: 0;
-    &:hover, &:checked{
-        border: 3px solid var(--brand-light);
-    }
-}
-#navy { 
-    background-color: #6a59ff; 
-    border: 6px solid var(--shape-button);
-    inset: 0;
-    &:hover, &:checked{
-        border: 3px solid var(--brand-light);
-    }
-}
-#purple { 
-    background-color: #b259ff; 
-    border: 6px solid var(--shape-button);
-    inset: 0;
-    &:hover, &:checked{
-        border: 3px solid var(--brand-light);
-    }
-}
-#fuschia { 
-    background-color: #ff59f9; 
-    border: 6px solid var(--shape-button);
-    inset: 0;
-    &:hover, &:checked{
-        border: 3px solid var(--brand-light);
-    }
-}
-#pink { 
-    background-color: #ff598b; 
-    border: 6px solid var(--shape-button);
-    inset: 0;
-    &:hover, &:checked{
-        border: 3px solid var(--brand-light);
-    }
-}
-#danger { 
-    background-color: #ff5959; 
-    border: 6px solid var(--shape-button);
-    inset: 0;
-    &:hover, &:checked{
-        border: 3px solid var(--brand-light);
-    }
-}
-#orange { 
-    background-color: #ff8b59; 
-    border: 6px solid var(--shape-button);
-    inset: 0;
-    &:hover, &:checked{
-        border: 3px solid var(--brand-light);
-    }
-}
-#yellow { 
-    background-color: #ffcd59; 
-    border: 6px solid var(--shape-button);
-    inset: 0;
-    &:hover, &:checked{
-        border: 3px solid var(--brand-light);
-    }
-}
-#lime { 
-    background-color: #e1ff59; 
-    border: 6px solid var(--shape-button);
-    inset: 0;
-    &:hover, &:checked{
-        border: 3px solid var(--brand-light);
-    }
-}
-#green { 
-    background-color: #59ff91; 
-    border: 6px solid var(--shape-button);
-    inset: 0;
-    &:hover, &:checked{
-        border: 3px solid var(--brand-light);
-    }
-}
-#cyan { 
-    background-color: #59fff9; 
-    border: 6px solid var(--shape-button);
-    inset: 0;
-    &:hover, &:checked{
-        border: 3px solid var(--brand-light);
-    }
-}

@@ -31,33 +31,25 @@ label{
     margin-bottom: 1rem
 }
 
-.segmented-control {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: var(--input-base);
-    border-radius: 0.5rem;
-    overflow: hidden;
-    border: 2px solid var(--input-stroke);
-    height: 46px;
-
-    & label{
-        display: flex;
-        padding: 1rem;
-        text-align: center;
-        cursor: pointer;
-        /* transition: background-color 0.3s, color 0.3s; */
-        align-items: center;
-        gap: 0.5rem;
-    }
-
-}
-
-.name{
-    & input{
-        margin-bottom: .5rem;
+.alert{
+    img{
+        margin-top: .5rem;
     }
     span{
-        color:#ff5959;
+        font: var(--text-body-sm);
+        color:#ff5959
     }
+    
+}
+
+input:valid + .alert {
+    display: none;
+}
+
+input:invalid {
+    border: 2px solid #ff5959;
+}
+
+#email:valid{
+    background-color: var(--input-base);
 }
