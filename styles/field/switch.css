@@ -7,17 +7,16 @@ div{
 
 /* Container do switch e texto */
 .switch-container {
-    margin-top: 1rem;
     display: flex;
     gap: .5rem;
-    border: 2px solid black;
+    align-items: center;
 }
 
 /* Estilo do switch */
 .switch {
     position: relative;
     display: inline-block;
-    width: 53px;
+    width: 50px;
     height: 25px;
 }
 
@@ -31,9 +30,10 @@ div{
 /* Slider do switch */
 .slider {
     position: absolute;
+    padding: .8rem;
     cursor: pointer;
-    top: -4px;
-    left: 0;
+    top: 6px;
+    left: .25rem;
     right: -4px;
     bottom: 0;
     background-color: var(--input-base);

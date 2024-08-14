@@ -3,36 +3,27 @@
     background-color: #1d6fb6;
     border: none;
     color: var(--text-head);
-    padding: 12px 24px;
-    text-align: center;
+    height: 48px;
+    width: 177px;
     text-decoration: none;
-    display: inline-block;
-    font-size: 18px;
-    margin-top: 20px;
     cursor: pointer;
     border-radius: .5rem;
     font: var(--text-body-md);
-    display: flex;
-    align-items: center;
     justify-content: center;
-    gap: 10px;
+    align-items: center;
+
 
     span{
+
         img{
             width: 20px;
             height: 20px;
         }
     }
 }
-
-/* Estilo do ícone no botão */
-.submit-button span {
-    font-size: 24px;
-}
-
 /* Alinhar o botão à direita */
 .consent-form .submit-button {
-    margin-top: 20px;
     display: block;
     margin-left: auto;
+    
 }

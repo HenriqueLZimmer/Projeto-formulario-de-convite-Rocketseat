@@ -8,6 +8,7 @@ input[type="file"] {
     height: 2.5rem;
     width: 7.25rem;
     margin-top: 1rem;
+    margin-left: .25rem;
     background-color: var(--shape-button);
     color: var(--text-head);
     cursor: pointer;
@@ -31,7 +32,6 @@ input[type="file"] {
 
 .button-file{
     height: 40px;
-    border: 2px solid black;
     align-items: center;
     span{
         text-align: center;
